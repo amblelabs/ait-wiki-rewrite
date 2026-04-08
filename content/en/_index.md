@@ -7,7 +7,7 @@ sidebar:
 ---
 This is the landing page.
 
-[About](/about) [SEO](#)
+[About](/about) {{< term "SEO" >}}
 
 ## Explore
 
