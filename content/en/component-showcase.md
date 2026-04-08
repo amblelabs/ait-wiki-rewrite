@@ -8,7 +8,7 @@ sidebar:
 
 A built-in component to show important information to the reader.
 
-<!--more-->
+
 
 > [!NOTE]
 > [GitHub-style alerts](../../markdown#alerts) are supported since [v0.9.0](https://github.com/imfing/hextra/releases/tag/v0.9.0).
@@ -142,11 +142,13 @@ A **callout** is a short piece of text intended to attract attention.
 
 ## Options
 
+
 | Parameter | Description |
-|-----------|---------------------------------------------------------------------------------|
+| --------- | ------------------------------------------------------------------------------- |
 | `type` | The type of callout. (default, `info`, `warning`, `error`, `important`) |
 | `emoji` | The emoji to show before the callout. |
 | `icon` | The icon to show before the callout. (related to type or can be a custom icon). |
+
 
 # Cards Component
 
@@ -159,7 +161,7 @@ A **callout** is a short piece of text intended to attract attention.
 {{< /cards >}}
 
 {{< cards >}}
-{{< card link="/" title="Image Card" image="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407" subtitle="Internet Image" >}}
+{{< card link="/" title="Image Card" image="[https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407](https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407)" subtitle="Internet Image" >}}
 {{< card link="/" title="Local Image" image="/images/card-image-unprocessed.jpg" subtitle="Raw image under static directory." >}}
 {{< card link="/" title="Local Image" image="images/space.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
 {{< /cards >}}
@@ -185,24 +187,28 @@ A **callout** is a short piece of text intended to attract attention.
 
 ## Card Parameters
 
-| Parameter  | Description                                                                |
+
+| Parameter | Description |
 | ---------- | -------------------------------------------------------------------------- |
-| `link`     | URL (internal or external).                                                |
-| `title`    | Title heading for the card.                                                |
-| `subtitle` | Subtitle heading (supports Markdown).                                      |
-| `icon`     | Name of the icon. See [icons]({{% relRef "icon" %}}) for more information. |
+| `link` | URL (internal or external). |
+| `title` | Title heading for the card. |
+| `subtitle` | Subtitle heading (supports Markdown). |
+| `icon` | Name of the icon. See [icons]({{% relRef "icon" %}}) for more information. |
+
 
 ## Image Card
 
 Additionally, the card supports adding image and processing through these parameters:
 
-| Parameter    | Description                                                         |
+
+| Parameter | Description |
 | ------------ | ------------------------------------------------------------------- |
-| `image`      | Specifies the image URL for the card.                               |
-| `alt`        | Alternative text for the image (defaults to title if not provided). |
-| `method`     | Sets Hugo's image processing method.                                |
-| `options`    | Configures Hugo's image processing options.                         |
-| `imageStyle` | Used to fill the style attribute of the image tag.                  |
+| `image` | Specifies the image URL for the card. |
+| `alt` | Alternative text for the image (defaults to title if not provided). |
+| `method` | Sets Hugo's image processing method. |
+| `options` | Configures Hugo's image processing options. |
+| `imageStyle` | Used to fill the style attribute of the image tag. |
+
 
 Card supports three kinds of images:
 
@@ -219,12 +225,14 @@ For more on Hugo's built in image processing commands, methods, and options see 
 
 Card supports adding tags which could be useful to show extra status information.
 
-| Parameter   | Description                                                                            |
+
+| Parameter | Description |
 | ----------- | -------------------------------------------------------------------------------------- |
-| `tag`       | Text in tag.                                                                           |
-| `tagColor`  | Color of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information.  |
-| `tagIcon`   | Icon of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information.   |
+| `tag` | Text in tag. |
+| `tagColor` | Color of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information. |
+| `tagIcon` | Icon of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information. |
 | `tagBorder` | Border of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information. |
+
 
 {{< cards >}}
 {{< card link="../callout" title="Card with default tag" tag="tag text" >}}
@@ -271,11 +279,12 @@ You can specify the maximum number of columns for cards to span by passing the `
   {{</* card link="/" title="Right Card" */>}}
 {{</* /cards */>}}
 ```
+
 # Details
 
 A built-in component to display a collapsible content.
 
-<!--more-->
+
 
 ## Example
 
@@ -295,7 +304,7 @@ This will be hidden by default.
 
 ## Usage
 
-````markdown
+```markdown
 {{</* details title="Details" */>}}
 
 This is the content of the details.
@@ -303,15 +312,15 @@ This is the content of the details.
 Markdown is **supported**.
 
 {{</* /details */>}}
-````
+```
 
-````markdown
+```markdown
 {{</* details title="Click me to reveal" closed="true" */>}}
 
 This will be hidden by default.
 
 {{</* /details */>}}
-````
+```
 
 # FileTree Component
 
@@ -349,16 +358,20 @@ This will be hidden by default.
 
 ### `filetree/file`
 
-| Parameter | Description                                                          |
-|-----------|----------------------------------------------------------------------|
-| `name`    | The name of the file.                                                |
+
+| Parameter | Description |
+| --------- | --------------------- |
+| `name` | The name of the file. |
+
 
 ### `filetree/folder`
 
-| Parameter | Description                                                          |
-|-----------|----------------------------------------------------------------------|
-| `name`    | The name of the file.                                                |
-| `state`   | The state of the file. Can be `open` or `closed`. Default is `open`. |
+
+| Parameter | Description |
+| --------- | -------------------------------------------------------------------- |
+| `name` | The name of the file. |
+| `state` | The state of the file. Can be `open` or `closed`. Default is `open`. |
+
 
 # Icon
 
@@ -368,9 +381,9 @@ To use this shortcode inline, inline shortcode needs to be enabled in the config
 enableInlineShortcodes: true
 ```
 
-List of available icons can be found in [`data/icons.yaml`](https://github.com/imfing/hextra/blob/main/data/icons.yaml).
+List of available icons can be found in `[data/icons.yaml](https://github.com/imfing/hextra/blob/main/data/icons.yaml)`.
 
-<!--more-->
+
 
 ## Example
 
@@ -407,10 +420,12 @@ Tip: [Iconify Design](https://iconify.design/) is a great place to find SVG icon
 
 ## Options
 
-| Name         | Description                 |
-|--------------|-----------------------------|
-| `name`       | Icon name                   |
+
+| Name | Description |
+| ------------ | --------------------------- |
+| `name` | Icon name |
 | `attributes` | The attributes of the icon. |
+
 
 # Other Shortcodes
 
@@ -426,7 +441,7 @@ Tip: [Iconify Design](https://iconify.design/) is a great place to find SVG icon
 {{< badge "default" >}}&nbsp;
 {{< badge content="border" border=false >}}&nbsp;
 {{< badge content="color" color="green" >}}&nbsp;
-{{< badge content="link" link="https://github.com/imfing/hextra/releases" >}}&nbsp;
+{{< badge content="link" link="[https://github.com/imfing/hextra/releases](https://github.com/imfing/hextra/releases)" >}}&nbsp;
 {{< badge content="icon" icon="sparkles" >}}&nbsp;
 
 ### Usage
@@ -488,7 +503,7 @@ Tip: [Iconify Design](https://iconify.design/) is a great place to find SVG icon
 #### Variants
 
 {{< badge content="Badge" icon="sparkles" >}}&nbsp;
-{{< badge content="Releases" link="https://github.com/imfing/hextra/releases" icon="github" >}}&nbsp;
+{{< badge content="Releases" link="[https://github.com/imfing/hextra/releases](https://github.com/imfing/hextra/releases)" icon="github" >}}&nbsp;
 
 ```
 {{</* badge content="Badge" icon="sparkles" */>}}
@@ -497,15 +512,17 @@ Tip: [Iconify Design](https://iconify.design/) is a great place to find SVG icon
 
 ### Options
 
-| Name      | Description                                                                                                              |
-|-----------|--------------------------------------------------------------------------------------------------------------------------|
-| `content` | The text of the badge.                                                                                                   |
-| `link`    | The link of the badge.                                                                                                   |
-| `icon`    | The icon of the badge.                                                                                                   |
-| `color`   | The color of the badge. <br/> `gray` (default), `purple`, `indigo`, `blue`, `green`, `yellow`, `amber`, `orange`, `red`. |
-| `class`   | The class of the badge.                                                                                                  |
-| `border`  | Adds or removes the border (default: true).                                                                              |
- 
+
+| Name | Description |
+| --------- | ------------------------------------------------------------------------------------------------------------------ |
+| `content` | The text of the badge. |
+| `link` | The link of the badge. |
+| `icon` | The icon of the badge. |
+| `color` | The color of the badge. `gray` (default), `purple`, `indigo`, `blue`, `green`, `yellow`, `amber`, `orange`, `red`. |
+| `class` | The class of the badge. |
+| `border` | Adds or removes the border (default: true). |
+
+
 ## YouTube
 
 Embed a YouTube video.
@@ -536,7 +553,7 @@ You can also place the PDF file in your project directory and use the relative p
 
 Example:
 
-{{< pdf "https://upload.wikimedia.org/wikipedia/commons/1/13/Example.pdf" >}}
+{{< pdf "[https://upload.wikimedia.org/wikipedia/commons/1/13/Example.pdf](https://upload.wikimedia.org/wikipedia/commons/1/13/Example.pdf)" >}}
 
 # Steps
 
@@ -565,7 +582,6 @@ This will not be counted as a step.
 This is the third step.
 
 {{% /steps %}}
-
 
 ## Usage
 
@@ -661,47 +677,41 @@ See the [Icon shortcode](../icon) page for the list of available icons.
   {{< tab name="Videos" icon="film" >}}Watch and stream video content.{{< /tab >}}
 {{< /tabs >}}
 
-
 ### Use Markdown
 
 Markdown syntax including code block is also supported:
 
-````
+```
 {{</* tabs */>}}
 
   {{</* tab name="JSON" */>}}
   ```json
   { "hello": "world" }
-  ```
+```
+
   {{</* /tab */>}}
 
   ... add other tabs similarly
 
 {{</* /tabs */>}}
-````
+
+```
 
 {{< tabs >}}
 
   {{< tab name="JSON" >}}
-  ```json
-  { "hello": "world" }
-  ```
+
   {{< /tab >}}
 
   {{< tab name="YAML" >}}
-  ```yaml
-  hello: world
-  ```
+
   {{< /tab >}}
 
   {{< tab name="TOML" >}}
-  ```toml
-  hello = "world"
-  ```
+
   {{< /tab >}}
 
 {{< /tabs >}}
-
 
 ### Sync Tabs
 
@@ -756,8 +766,8 @@ with one file defined per supported language.
 
 ## Example
 
-* {{< term "static site generator" >}}
-* {{< term "SEO" >}}
+- {{< term "static site generator" >}}
+- {{< term "SEO" >}}
 
 ## Usage
 
@@ -767,10 +777,11 @@ with one file defined per supported language.
 
 If a term is not found in the glossary, it is returned as-is.
 
-
 ## Options
 
-| Name         | Description                 |
-|--------------|-----------------------------|
-| `entry`      | Glossary term               |
+
+| Name | Description |
+| ------- | ------------- |
+| `entry` | Glossary term |
+
 
