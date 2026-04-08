@@ -119,6 +119,7 @@ params:
       category: General
       categoryId: DIC_kwDOML5FAM4CgOE1
       lazy: true
+      theme: gruvbox_dark
 
 caches:
   images:
