@@ -10,6 +10,10 @@ content:
     label: English (EN)
     type: group
     items:
+    - name: landing
+      label: Landing Page
+      type: file
+      path: data/en/_index.md
     - name: glossary
       label: Glossary
       type: file
