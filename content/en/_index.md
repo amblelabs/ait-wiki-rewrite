@@ -5,7 +5,5 @@ sidebar:
   open: false
   exclude: false
 ---
-![](assets/images/wikibanner_final_v2.jpg)
-
 Welcome to the **Adventures in Time Wiki!** Lorem ipsum dolor sor amet
 
