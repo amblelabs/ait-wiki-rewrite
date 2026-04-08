@@ -227,11 +227,11 @@ Card supports adding tags which could be useful to show extra status information
 
 
 | Parameter | Description |
-| ----------- | -------------------------------------------------------------------------------------- |
+| ----------- | -------------------------------------------------------------- |
 | `tag` | Text in tag. |
-| `tagColor` | Color of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information. |
-| `tagIcon` | Icon of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information. |
-| `tagBorder` | Border of the tag. See [badges]({{% relRef "others/#badges" %}}) for more information. |
+| `tagColor` | Color of the tag. See [badges](#badges) for more information. |
+| `tagIcon` | Icon of the tag. See [badges](#badges) for more information. |
+| `tagBorder` | Border of the tag. See [badges](#badges) for more information. |
 
 
 {{< cards >}}
@@ -381,9 +381,7 @@ To use this shortcode inline, inline shortcode needs to be enabled in the config
 enableInlineShortcodes: true
 ```
 
-List of available icons can be found in `[data/icons.yaml](https://github.com/imfing/hextra/blob/main/data/icons.yaml)`.
-
-
+List of available icons can be found in [icons.yml](`https://github.com/imfing/hextra/blob/main/data/icons.yaml`).
 
 ## Example
 
