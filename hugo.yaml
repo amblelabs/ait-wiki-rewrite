@@ -30,6 +30,9 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
+    - identifier: archives
+      name: Archives
+      pageRef: /archives
     - name: Contact ↗
       url: "https://github.com/amblelabs"
       weight: 3
@@ -95,6 +98,9 @@ params:
   
   imageZoom:
     enable: true
+
+  archives:
+    section: changelogs
 
   externalLinkDecoration: true
 
