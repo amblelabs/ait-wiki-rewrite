@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Adventures in Time Wiki
 
 enableGitInfo: true
 enableRobotsTXT: true
@@ -52,10 +52,22 @@ menu:
         label: true # optional, default is false
         #icon: "globe-alt" # optional, default is "translate"
 
+services:
+  googleAnalytics:
+    id: G-3B98G1FDF0
+
 params:
+  theme:
+    color: '#fd852c'
+  
   navbar:
     displayTitle: true
     displayLogo: true
+    logo:
+      path: logo.webp
+      #link: /ait-wiki/
+      width: 40
+      height: 40
 
   footer:
     displayCopyright: false
@@ -63,7 +75,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://app.pagescms.org/amblelabs/wiki-template/main/collection/wiki/edit/content"
+    base: "https://app.pagescms.org/amblelabs/ait-wiki-rewrite/main/collection/wiki/edit/content"
     sep: "%2F"
 
   search:
@@ -88,9 +100,9 @@ params:
   externalLinkDecoration: true
 
   banner:
-    key: 'announcement-xxx'
+    key: 'announcement-2026-04-08-rewrite'
     message: |
-      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
+      🎉 New AIT Wiki!
     
   # Display the last modification date
   displayUpdatedDate: true
@@ -99,6 +111,17 @@ params:
   displayUpdatedAuthor: true
   analytics:
     minGoogleAnalytics: true
+  
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: amblelabs/ait-wiki
+      repoId: R_kgDOML5FAA
+      category: General
+      categoryId: DIC_kwDOML5FAM4CgOE1
+      lazy: true
 
 caches:
   images:
