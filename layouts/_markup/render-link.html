@@ -1,6 +1,9 @@
 {{- $dest := .Destination -}}
-{{ $dest }}
 {{- $url := urls.Parse $dest -}}
+
+{{- if eq $dest "#" -}}
+  {{< term "{{- .Title -}}" >}}
+{{- else -}}
 
 {{- if and $dest (hasPrefix $dest "/") -}}
   {{- with or (.PageInner.GetPage $url.Path) (.PageInner.Resources.Get $url.Path) (resources.Get $url.Path) -}}
@@ -26,4 +29,5 @@
     {{- partial "utils/icon.html" (dict "name" "arrow-up-right" "attributes" `class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true"`) -}}
   {{- end -}}
 </a>
+{{- end -}}
 {{- end -}}
