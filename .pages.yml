@@ -13,7 +13,7 @@ content:
     - name: landing
       label: Landing Page
       type: file
-      path: data/en/_index.md
+      path: content/en/_index.md
     - name: glossary
       label: Glossary
       type: file
