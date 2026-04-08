@@ -381,7 +381,7 @@ To use this shortcode inline, inline shortcode needs to be enabled in the config
 enableInlineShortcodes: true
 ```
 
-List of available icons can be found in [icons.yml](`https://github.com/imfing/hextra/blob/main/data/icons.yaml`).
+List of available icons can be found in [icons.yml](https://github.com/imfing/hextra/blob/main/data/icons.yaml).
 
 ## Example
 
