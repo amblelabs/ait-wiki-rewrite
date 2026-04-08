@@ -161,10 +161,11 @@ A **callout** is a short piece of text intended to attract attention.
 {{< /cards >}}
 
 {{< cards >}}
-{{< card link="/" title="Image Card" image="[https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407](https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407)" subtitle="Internet Image" >}}
+{{< card link="/" title="Image Card" image="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407" subtitle="Internet Image" >}}
 {{< card link="/" title="Local Image" image="/images/card-image-unprocessed.jpg" subtitle="Raw image under static directory." >}}
 {{< card link="/" title="Local Image" image="images/space.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
 {{< /cards >}}
+
 
 ## Usage
 
