@@ -2,7 +2,46 @@
 {{- $url := urls.Parse $dest -}}
 
 {{- if eq $dest "#" -}}
-  {{< term "{{- .Title -}}" >}}
+  {{- $entry := .Title -}}
+{{- $entryLower := lower $entry -}}
+{{- $match := dict -}}
+
+<!-- Go over the term data file - data/<lang>/termbase.yaml -->
+{{- range (index .Site.Data .Site.Language.Lang "termbase") -}}
+  {{- if or (eq (lower .abbr) $entryLower) (eq (lower .term) $entryLower) -}}
+    {{- $match = . -}}
+    {{- break -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $match }}
+  <abbr title="{{ .definition | plainify }}">
+    {{- $external := false -}}
+    {{- $link := "" -}}
+    
+    {{- with .link -}}
+      {{- $external = strings.HasPrefix . "http" -}}
+      {{- if hasPrefix . "/" -}}
+        {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- with $link -}}
+      <a href="{{- . -}}"
+        {{- with $external -}}
+          target="_blank" rel="noreferrer"
+        {{- end -}}
+      >
+    {{- end -}}
+      {{- $entry -}}
+    {{- with $link -}}
+      </a>
+    {{- end -}}
+  </abbr>
+{{- else }}
+  {{- $entry -}}
+{{- end }}
+
 {{- else -}}
 
 {{- if and $dest (hasPrefix $dest "/") -}}
