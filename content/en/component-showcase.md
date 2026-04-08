@@ -194,7 +194,7 @@ A **callout** is a short piece of text intended to attract attention.
 | `link` | URL (internal or external). |
 | `title` | Title heading for the card. |
 | `subtitle` | Subtitle heading (supports Markdown). |
-| `icon` | Name of the icon. See [icons]({{% relRef "icon" %}}) for more information. |
+| `icon` | Name of the icon. See [icons](#icon) for more information. |
 
 
 ## Image Card
