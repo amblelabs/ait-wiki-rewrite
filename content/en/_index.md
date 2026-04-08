@@ -5,4 +5,7 @@ sidebar:
   open: false
   exclude: false
 ---
-Welcome Archivus members to the AiT wiki rewrite! There's a lot to do so let get at it!
+![](/images/wikibanner_final_v2.jpg)
+
+Welcome to the **Adventures in Time Wiki!** Lorem ipsum dolor sor amet
+
