@@ -1,21 +1,8 @@
 ---
-title: My Site
+title: Adventures in Time Wiki
 toc: false
 sidebar:
   open: false
   exclude: false
 ---
-This is the landing page.
-
-[About](/about) {{< term "SEO" >}}
-
-## Explore
-
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+Welcome Archivus members to the AiT wiki rewrite! There's a lot to do so let get at it!
