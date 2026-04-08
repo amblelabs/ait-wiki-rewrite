@@ -57,6 +57,8 @@ services:
     id: G-3B98G1FDF0
 
 params:
+  theme:
+    color: '#fd852c'
   navbar:
     displayTitle: true
     displayLogo: true
