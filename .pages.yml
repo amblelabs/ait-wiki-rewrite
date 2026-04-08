@@ -33,7 +33,7 @@ content:
     - name: wiki
       label: Wiki
       type: collection
-      path: content/en
+      path: content/en/wiki
       format: yaml-frontmatter
       filename: "{primary}.md"
       view:
