@@ -1,5 +1,5 @@
 ---
-title: _index
+title: Items
 description: the main page for items
 sidebar:
   open: false
