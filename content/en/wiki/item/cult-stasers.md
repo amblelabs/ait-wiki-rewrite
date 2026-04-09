@@ -14,4 +14,4 @@ The difference here is that the rifle has a scope which can zoom in for long ran
 
 To use the staser, `left click` to shoot a powerful beam and hold `right click` to zoom in on your target.
 
-All of the items mentioned here can be found in Cult Structure chests and Cyber wreck chests
+All of the items mentioned here can be found in Cult Structure chests and Cyber wreck chests.
