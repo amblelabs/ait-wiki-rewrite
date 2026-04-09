@@ -1,0 +1,12 @@
+---
+title: Artron Collector Unit
+description: the item not the block
+sidebar:
+  open: false
+  exclude: false
+---
+The Artron Collector Unit is crafted like so:
+
+TODO: recipe for artron collector unit
+
+To use it, you'll need to right click the {{< term "Artron Collector" >}} and fill the unit up with artron energy. With the artron collector unit in hand, you can shift + right click on the console block to refuel the TARDIS.
