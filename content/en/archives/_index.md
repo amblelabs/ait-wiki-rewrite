@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: Changelog Archives
 layout: archives
 toc: false
 ---

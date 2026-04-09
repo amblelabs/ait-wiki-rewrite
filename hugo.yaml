@@ -24,15 +24,16 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Wiki
+      pageRef: /wiki
       weight: 1
     - name: About
       pageRef: /about
       weight: 2
     - identifier: archives
-      name: Archives
+      name: Changelog Archive
       pageRef: /archives
+      weight: 2
     - name: Contact ↗
       url: "https://github.com/amblelabs"
       weight: 3
@@ -61,7 +62,7 @@ services:
 
 params:
   theme:
-    color: '#fd852c'
+    color: "#fd852c"
   navbar:
     displayTitle: true
     displayLogo: true
@@ -87,7 +88,7 @@ params:
     flexsearch:
       # index page by: content | summary | heading | title
       index: content
-  
+
   page:
     contextMenu:
       enable: true
@@ -95,7 +96,7 @@ params:
         - name: Open in ChatGPT
           icon: chatgpt
           url: "https://chatgpt.com/?hints=search&q=I%27m+looking+at+this+documentation%3A+{url}%0AHelp+me+understand+how+to+use+it."
-  
+
   imageZoom:
     enable: true
 
@@ -105,10 +106,10 @@ params:
   externalLinkDecoration: true
 
   banner:
-    key: 'announcement-2026-04-08-rewrite'
+    key: "announcement-2026-04-08-rewrite"
     message: |
       🎉 New AIT Wiki!
-    
+
   # Display the last modification date
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
@@ -116,7 +117,7 @@ params:
   displayUpdatedAuthor: true
   analytics:
     minGoogleAnalytics: true
-  
+
   comments:
     enable: true
     type: giscus
