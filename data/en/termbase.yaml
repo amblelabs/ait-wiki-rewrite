@@ -14,3 +14,7 @@
   abbr: item
   definition: items
   link: /wiki/item/_index
+- term: Blocks
+  abbr: block
+  definition: blocks
+  link: /wiki/block/_index
