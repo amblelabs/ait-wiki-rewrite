@@ -5,9 +5,9 @@ sidebar:
   open: false
   exclude: false
 ---
-The hammer can be crafted like so
+The hammer can be crafted like so:
 
-TODO: recipie for hammer
+TODO: recipe for hammer
 
 The hammer is used to speed up the TARDIS by hitting the console using `right click`. We suggest you hit the base of the console as to not accidentally hit any controls.
 
