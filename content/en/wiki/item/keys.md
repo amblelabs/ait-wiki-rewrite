@@ -5,6 +5,8 @@ sidebar:
   open: false
   exclude: false
 ---
+TODO: add the keys image
+
 ## What keys are there?
 
 - Iron
