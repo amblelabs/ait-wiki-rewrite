@@ -5,7 +5,11 @@ sidebar:
   open: false
   exclude: false
 ---
-There are 2 types of cult stasers, the cult staser and the cult staser rifle.
+![](/images/stasers.jpg)
+
+There are 2 types of cult stasers, the cult staser and the cult staser rifle. These can be crafted like so:
+
+TODO: recipe for stasers
 
 The difference here is that the rifle has a scope which can zoom in for long range attacks. You'll need to fill them up with artron energy by using the **Staser Bolt Magazine**.  
 
