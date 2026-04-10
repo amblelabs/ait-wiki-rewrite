@@ -5,7 +5,7 @@ sidebar:
   open: false
   exclude: false
 ---
-![](/images/stasers.jpg)
+TODO: image of stasers
 
 There are 2 types of cult stasers, the cult staser and the cult staser rifle. These can be crafted like so:
 
