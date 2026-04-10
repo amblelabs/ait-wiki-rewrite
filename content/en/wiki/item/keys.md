@@ -19,9 +19,9 @@ TODO: add the keys image
 
 Everything after iron unlocks snapping if you have the PILOT rank loyalty. Each rank of key increases the snapping range aside from iron, which doesn’t give the ability to snap.
 
-To snap, you simply press the V key or whatever key that's bound to snapping.
+To snap, you simply press the `V` key or whatever key that's bound to snapping.
 
-You can also lock the door by holding shift and pressing the V key at the same time.
+You can also lock the door by holding `shift` and pressing the `V` key at the same time.
 
 ## How do I bind my key?
 
