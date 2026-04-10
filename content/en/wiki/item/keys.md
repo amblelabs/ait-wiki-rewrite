@@ -17,7 +17,7 @@ TODO: add the keys image
 
 ## What do they do?
 
-Everything after iron unlocks snapping if you have enough loyalty for it. Each rank of key increases the snapping range aside from iron, which doesn’t give the ability to snap.
+Everything after iron unlocks snapping if you have the PILOT rank loyalty. Each rank of key increases the snapping range aside from iron, which doesn’t give the ability to snap.
 
 To snap, you simply press the V key or whatever key that's bound to snapping.
 
